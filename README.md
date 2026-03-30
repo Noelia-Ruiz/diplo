@@ -24,7 +24,7 @@ El objetivo de este repositorio es documentar el avance y los trabajos práctico
 
 1. Clona el repositorio:
    ```
-   git clone <url-del-repo>
+   git clone <https://github.com/Noelia-Ruiz/diplo>
    ```
 2. Ingresa a la carpeta del repositorio:
    ```
@@ -34,10 +34,6 @@ El objetivo de este repositorio es documentar el avance y los trabajos práctico
    ```
    python ruta/al/archivo.py
    ```
-
-## Contacto
-
-Para dudas o sugerencias, contacta a la docente o utiliza los canales oficiales de la diplomatura.
 
 ---
 
