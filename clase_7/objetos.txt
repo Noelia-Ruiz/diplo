@@ -36,7 +36,7 @@ Ejemplo:
 
 Primero, nos permite organizar mejor el código, agrupando los datos (atributos) y las acciones (métodos) que van a tener o poder hacer los objetos (esas instancias de clase), en este caso, el auto.
 Después pensando en la reutilización, nos facilita poder crear muchos autos diferentes a partir de una misma estructura o plantilla (que es la clase), cambiando solo los valores de los atributos.
-También nos hace el código más fácil de leer y mantener, porque cada auto “sabe” cómo comportarse y qué información tiene.
-En cuanto a la extensión del programa, nos facilita el hecho de agregar nuevos atributos o métodos, solo modificando la estructura del auto y con eso, ya todos los autos creados tendrán esas nuevas características.
+También nos hace el código más fácil de leer y mantener, porque cada auto “sabe” lo que tiene que hacer y qué información tiene.
+En cuanto al programa, nos facilita el hecho de agregar nuevos atributos o métodos, solo modificando la estructura del auto y con eso, ya todos los autos creados van a tener esas nuevas características.
 
-Para finalizar, ayuda a evitar errores, ya que cada auto tiene sus propios datos y no se mezclan con los de otros autos.
+Para finalizar, nos ayuda a evitar errores, ya que cada auto tiene sus propios datos y no se mezclan con los de otros autos.
