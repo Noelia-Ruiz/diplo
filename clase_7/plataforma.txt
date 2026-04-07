@@ -1,0 +1,34 @@
+Plataforma educativa:
+Estás participando en la creación de una plataforma educativa. 
+Queremos automatizar pruebas sobre distintos aspectos del sistema. 
+
+Indicar: 
+1. ¿Qué objetos podrías identificar dentro de la plataforma? 
+algunos objetos pueden ser: usuario, materia, tarea.. entre otros..
+
+2. Elegí uno (por ejemplo, una clase virtual, un usuario, una tarea)
+al ejemplo, se elije una clase virtual
+
+3. Indicá qué atributos tendría 
+• nombre: "Diplomatura Q.A" | de tipo string
+• hora_inicio: 19:00 | (no estoy segura del tipo de dato para hora pero buscando en internet llegué al datetime )
+• hora_fin: 21:00 |(sería tipo de dato - datetime tmb)
+• dias_de_clase: ["lunes", "miércoles"] | una lista con los días de clase
+• plataforma: "meet" | de tipo string
+• cantidad_alumnos: 25 | un ejemplo para usar tipo de dato int, numérico
+
+4. Indicá qué métodos podría tener 
+se me ocurren:  • mostrar_pantalla()
+                • realizar_pregunta()
+                • tomar_asistencia()
+                • exponer_ejercicios()
+                • practica_en_vivo()
+
+5. ¿Por qué te resultaría útil pensar ese objeto como una clase en tu código de automatización?
+Pensar ese objeto como una clase permite organizar y agrupar toda la información y los comportamientos relacionados con una clase virtual en un solo lugar.
+Con eso, se hace mas facil:
+                • Reutilizar el código: para crear muchas clases virtuales diferentes, cambiando solo los valores de sus atributos.
+                • Automatizar pruebas de manera sencilla, ya que cada clase virtual puede tener sus propios métodos para simular acciones (como tomar asistencia o mostrar pantalla).
+                • Mantener el código ordenado y fácil de entender, ya que cada objeto “sabe” los datos que tiene y qué puede hacer.
+                • Modificar o extender funcionalidades de las clases virtuales sin afectar otras partes del sistema.
+                • Evitar errores, ya que cada instancia de clase virtual es independiente y no se mezclan los datos entre sí.
