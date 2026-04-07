@@ -1,0 +1,42 @@
+Pensando Objetos:
+Imaginemos que estamos automatizando una web donde se gestionan autos. 
+Hasta ahora, usamos funciones, variables y listas para manejar la información. 
+
+Ahora piensen: 
+1. ¿Qué atributos debería tener un auto (qué datos tiene)? 
+
+Los datos o atributos que debe tener un auto pueden ser: patente, seguro, color, modelo, año y tamaño (ej: 3P (tres puertas)).
+
+En este caso, serían de tipo string los de:
+• patente: "AMD 029"
+• seguro: "San Cristóbal, plan 2509"
+• color: "Verde malva"
+• modelo: "Renault bora"
+• tamaño: "4P" que corresponde a un tipo de auto familiar
+
+Dejamos de tipo int, numérico, a:
+• año: 2005 (ejemplo de año del auto)
+
+Podríamos incorporar algun dato de tipo boolean solo para mencionarlos:
+• tieneAireAcondicionado: true / false (segun corresponda)
+• llevaRuedaDeRepuesto: true
+• cuentaConSillaDeBebe: false
+
+2. ¿Qué métodos podría tener ese auto (qué cosas puede hacer)?
+
+Un auto, puede hacer diferentes cosas, ademas de encender, arrancar y frenar..
+Ejemplo:
+    • llevar_pasajeros()
+    • cargar_nafta()
+    • tocar_bocina()
+    • encender_luces()
+    • girar()
+
+3. ¿Qué ventajas tendría si juntamos toda esa información y comportamientos en una misma estructura?
+
+Primero, nos permite organizar mejor el código, agrupando los datos (atributos) y las acciones (métodos) que van a tener o poder hacer los objetos (esas instancias de clase), en este caso, el auto.
+Después pensando en la reutilización, nos facilita poder crear muchos autos diferentes a partir de una misma estructura o plantilla (que es la clase), cambiando solo los valores de los atributos.
+También nos hace el código más fácil de leer y mantener, porque cada auto “sabe” cómo comportarse y qué información tiene.
+En cuanto a la extensión del programa, nos facilita el hecho de agregar nuevos atributos o métodos, solo modificando la estructura del auto y con eso, ya todos los autos creados tendrán esas nuevas características.
+
+Para finalizar, ayuda a evitar errores, ya que cada auto tiene sus propios datos y no se mezclan con los de otros autos.
